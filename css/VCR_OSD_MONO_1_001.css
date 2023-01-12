@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'VCR_OSD_MONO_1_001';
+    src: url('../fonts/VCR_OSD_MONO_1_001.eot');
+    src: url('../fonts/VCR_OSD_MONO_1_001.eot') format('embedded-opentype'),
+         url('../fonts/VCR_OSD_MONO_1_001.woff2') format('woff2'),
+         url('../fonts/VCR_OSD_MONO_1_001.woff') format('woff'),
+         url('../fonts/VCR_OSD_MONO_1_001.ttf') format('truetype'),
+         url('../fonts/VCR_OSD_MONO_1_001.svg#VCR_OSD_MONO_1_001') format('svg');
+}

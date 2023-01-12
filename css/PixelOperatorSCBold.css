@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'PixelOperatorSCBold';
+    src: url('../fonts/PixelOperatorSCBold.eot');
+    src: url('../fonts/PixelOperatorSCBold.eot') format('embedded-opentype'),
+         url('../fonts/PixelOperatorSCBold.woff2') format('woff2'),
+         url('../fonts/PixelOperatorSCBold.woff') format('woff'),
+         url('../fonts/PixelOperatorSCBold.ttf') format('truetype'),
+         url('../fonts/PixelOperatorSCBold.svg#PixelOperatorSCBold') format('svg');
+}

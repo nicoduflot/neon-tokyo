@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'new_browserlink';
+    src: url('../fonts/new_browserlink.eot');
+    src: url('../fonts/new_browserlink.eot') format('embedded-opentype'),
+         url('../fonts/new_browserlink.woff2') format('woff2'),
+         url('../fonts/new_browserlink.woff') format('woff'),
+         url('../fonts/new_browserlink.ttf') format('truetype'),
+         url('../fonts/new_browserlink.svg#new_browserlink') format('svg');
+}
