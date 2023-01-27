@@ -13,7 +13,7 @@
 <body>
     <header>
         <div class="container">
-            <h1 class="left">NT <small>Neon Tokyo</small></h1>
+            <h1 class="bg-header-text left">NT <small>Neon Tokyo</small></h1>
             <div class="hr"></div>
             <div class="hr"></div>
             <div class="hr"></div>
@@ -46,16 +46,22 @@
                     <p>
                         Click <a href="#" data-toggle="modal" data-target="model">here</a> to see the image that triggered my need to reproduce this in HTML & CSS
                     </p>
+                    <p>
+                        Click <a href="#" data-action="call" data-target="Home Depot" data-callnumber="1 - 880 - 566 - 963">here</a> to call Home Depot
+                    </p>
+                    <p>
+                        Click <a href="#" data-action="call" data-target="Vesper Inc." data-callnumber="1 - 666 - 999 - 4337">here</a> to call Vesper Inc.
+                    </p>
                     <hr />
                     <div class="cadre">
                         <p>
-                            Calling Home Depot... <i class="bi bi-telephone-fill clignotant"></i>
+                            <span id="call-target"></span> <i id="call-sign" class="opacity-0"></i>
                         </p>
                         <p>
-                            1 - 880 - <mark>566</mark> - 963
+                            <span id="call-number"></span>
                         </p>
                         <div class="calling">
-                            <div class="search-call">
+                            <div id="search-call" class="">
 
                             </div>
                         </div>
@@ -70,29 +76,36 @@
         <section>
             <article>
                 <header>
-                    <h2>Communication</h2>
+                    <h2>ALERT</h2>
                 </header>
                 <main>
                     <p class="annonce">
-                        Main communication system: Acquiring...
+                        Bounty reception...
                     </p>
                     <p>
-                        Click <a href="#" data-toggle="modal" data-target="model">here</a> to see the image that triggered my need to reproduce this in HTML & CSS
+                        Click <a href="#" data-action="search-bounty" data-toggle="bounty" data-target="bounty">HERE</a> to aknowledge or quit the bounty announcement.
                     </p>
                     <hr />
-                    <div class="cadre">
-                        <p>
-                            Calling Home Depot... <i class="bi bi-telephone-fill clignotant"></i>
-                        </p>
-                        <p>
-                            1 - 880 - <mark>566</mark> - 963
-                        </p>
-                        <div class="calling">
-                            <div class="search-call">
+                    <div class="calling">
+                        <div id="search-bounty" class="">
 
-                            </div>
                         </div>
                     </div>
+                    <hr />
+                    <figure class="opacity-0 display-none" id="bounty">
+                        <figcaption>
+                            WANTED Dead or Alive
+                        </figcaption>
+                        <img src="./images/wanted.svg" />
+                        <figcaption>
+                            <p>
+                                Horace Lancestshire, bank robbery, armed assault, con.
+                            </p>
+                            <p>
+                                $10,000
+                            </p>
+                        </figcaption>
+                    </figure>
                 </main>
                 <footer>
 
@@ -104,124 +117,15 @@
                 </header>
                 <main>
                     <p class="annonce">
-                        Main communication system: Acquiring...
+                        System check: Acquiring...
                     </p>
-                    <p>
-                        Click <a href="#" data-toggle="modal" data-target="model">here</a> to see the image that triggered my need to reproduce this in HTML & CSS
-                    </p>
-                    <hr />
-                    <div class="cadre">
-                        <p>
-                            Calling Home Depot... <i class="bi bi-telephone-fill clignotant"></i>
-                        </p>
-                        <p>
-                            1 - 880 - <mark>566</mark> - 963
-                        </p>
-                        <div class="calling">
-                            <div class="search-call">
-
-                            </div>
-                        </div>
-                    </div>
                 </main>
                 <footer>
 
                 </footer>
             </article>
         </section>
-        <hr class="hr" />
-        <section>
-            <article>
-                <header>
-                    <h2>Communication</h2>
-                </header>
-                <main>
-                    <p class="annonce">
-                        Main communication system: Acquiring...
-                    </p>
-                    <p>
-                        Click <a href="#" data-toggle="modal" data-target="model">here</a> to see the image that triggered my need to reproduce this in HTML & CSS
-                    </p>
-                    <hr />
-                    <div class="cadre">
-                        <p>
-                            Calling Home Depot... <i class="bi bi-telephone-fill clignotant"></i>
-                        </p>
-                        <p>
-                            1 - 880 - <mark>566</mark> - 963
-                        </p>
-                        <div class="calling">
-                            <div class="search-call">
-
-                            </div>
-                        </div>
-                    </div>
-                </main>
-                <footer>
-
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h2>Communication</h2>
-                </header>
-                <main>
-                    <p class="annonce">
-                        Main communication system: Acquiring...
-                    </p>
-                    <p>
-                        Click <a href="#" data-toggle="modal" data-target="model">here</a> to see the image that triggered my need to reproduce this in HTML & CSS
-                    </p>
-                    <hr />
-                    <div class="cadre">
-                        <p>
-                            Calling Home Depot... <i class="bi bi-telephone-fill clignotant"></i>
-                        </p>
-                        <p>
-                            1 - 880 - <mark>566</mark> - 963
-                        </p>
-                        <div class="calling">
-                            <div class="search-call">
-
-                            </div>
-                        </div>
-                    </div>
-                </main>
-                <footer>
-
-                </footer>
-            </article>
-            <article>
-                <header>
-                    <h2>Communication</h2>
-                </header>
-                <main>
-                    <p class="annonce">
-                        Main communication system: Acquiring...
-                    </p>
-                    <p>
-                        Click <a href="#" data-toggle="modal" data-target="model">here</a> to see the image that triggered my need to reproduce this in HTML & CSS
-                    </p>
-                    <hr />
-                    <div class="cadre">
-                        <p>
-                            Calling Home Depot... <i class="bi bi-telephone-fill clignotant"></i>
-                        </p>
-                        <p>
-                            1 - 880 - <mark>566</mark> - 963
-                        </p>
-                        <div class="calling">
-                            <div class="search-call">
-
-                            </div>
-                        </div>
-                    </div>
-                </main>
-                <footer>
-
-                </footer>
-            </article>
-        </section>
+        <!--
         <hr class="hr" />
         <section>
             <article>
@@ -314,6 +218,99 @@
 
                 </footer>
             </article>
+        </section>
+        <hr class="hr" />
+        <section>
+            <article>
+                <header>
+                    <h2>Communication</h2>
+                </header>
+                <main>
+                    <p class="annonce">
+                        Main communication system: Acquiring...
+                    </p>
+                    <p>
+                        Click <a href="#" data-toggle="modal" data-target="model">here</a> to see the image that triggered my need to reproduce this in HTML & CSS
+                    </p>
+                    <hr />
+                    <div class="cadre">
+                        <p>
+                            Calling Home Depot... <i class="bi bi-telephone-fill clignotant"></i>
+                        </p>
+                        <p>
+                            1 - 880 - <mark>566</mark> - 963
+                        </p>
+                        <div class="calling">
+                            <div class="search-call">
+
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h2>Communication</h2>
+                </header>
+                <main>
+                    <p class="annonce">
+                        Main communication system: Acquiring...
+                    </p>
+                    <p>
+                        Click <a href="#" data-toggle="modal" data-target="model">here</a> to see the image that triggered my need to reproduce this in HTML & CSS
+                    </p>
+                    <hr />
+                    <div class="cadre">
+                        <p>
+                            Calling Home Depot... <i class="bi bi-telephone-fill clignotant"></i>
+                        </p>
+                        <p>
+                            1 - 880 - <mark>566</mark> - 963
+                        </p>
+                        <div class="calling">
+                            <div class="search-call">
+
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+
+                </footer>
+            </article>
+            <article>
+                <header>
+                    <h2>Communication</h2>
+                </header>
+                <main>
+                    <p class="annonce">
+                        Main communication system: Acquiring...
+                    </p>
+                    <p>
+                        Click <a href="#" data-toggle="modal" data-target="model">here</a> to see the image that triggered my need to reproduce this in HTML & CSS
+                    </p>
+                    <hr />
+                    <div class="cadre">
+                        <p>
+                            Calling Home Depot... <i class="bi bi-telephone-fill clignotant"></i>
+                        </p>
+                        <p>
+                            1 - 880 - <mark>566</mark> - 963
+                        </p>
+                        <div class="calling">
+                            <div class="search-call">
+
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <footer>
+
+                </footer>
+            </article>
             <article>
                 <header>
                     <h2>Communication</h2>
@@ -345,10 +342,23 @@
                 </footer>
             </article>
         </section>
+        -->
     </main>
     <footer>
         <div class="container">
-
+            <div class="h1 bg-header-text left">NT <small>Neon Tokyo</small></div>
+            <div class="bg-header-text right">
+                Moko moko
+            </div>
+            <div class="hr"></div>
+            <div class="hr"></div>
+            <div class="hr"></div>
+            <div class="hr"></div>
+            <div class="hr"></div>
+            <div class="hr"></div>
+            <div class="hr"></div>
+            <div class="hr"></div>
+            <div class="hr"></div>
         </div>
     </footer>
     <aside class="modal hidden" id="model">
